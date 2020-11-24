@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "createS3": "node ./create-bucket.js"
   },
   "author": "ZhengjieYe <20091571@mail.wit.ie>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.798.0",
+    "dotenv": "^8.2.0"
+  }
 }
