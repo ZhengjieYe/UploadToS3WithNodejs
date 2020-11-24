@@ -5,7 +5,7 @@ const ID = process.env.ID;
 const SECRET = process.env.SECRET;
 
 // The name of the bucket that you have created
-const BUCKET_NAME = 'test-bucket-for-whoever';
+const BUCKET_NAME = 'test-bucket-for-yzj';
 const s3 = new AWS.S3({
     accessKeyId: ID,
     secretAccessKey: SECRET
